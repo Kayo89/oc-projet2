@@ -1,0 +1,37 @@
+/* [class*="col-"], footer {
+	background-color: lightgreen;
+	border: 1px solid black;
+	border-radius: 10px;
+	text-align: center;
+} */
+.pos-relative{
+    position: relative;
+    background-color: lightskyblue;
+}
+.fix-bot{
+    position: absolute;
+    bottom: 10;
+}
+h3{
+    border-bottom: lightskyblue solid 0.1em;
+}
+body{
+    font-size: 0.8em;
+}
+.infos h2{
+    font-size: 1.8em;
+}
+.infos li{
+    margin-top: 0.8em;
+}
+.logo{
+    width: 40px;
+}
+.logo-briefcase{
+    width: 32px;
+    margin-bottom: 5px;
+}
+.logo-pen{
+    width: 24px;
+    margin-bottom: 3px;
+}
