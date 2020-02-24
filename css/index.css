@@ -1,24 +1,17 @@
-/* [class*="col-"], footer {
-	background-color: lightgreen;
-	border: 1px solid black;
-	border-radius: 10px;
-	text-align: center;
-} */
 .pos-relative{
     position: relative;
     background-color: lightskyblue;
 }
-.fix-bot{
-    position: absolute;
-    bottom: 10;
+.loisirs-bottom{
+    width: 100%;
+    bottom: 10px;
 }
-h3{
+h3, .mini-border{
     border-bottom: lightskyblue solid 0.1em;
 }
 .mini-border{
     width: 60px;
     margin-top: -7px;
-    border-bottom: lightskyblue solid 0.1em; 
 }
 body{
     font-size: 0.8em;
@@ -40,3 +33,14 @@ body{
     width: 24px;
     margin-bottom: 3px;
 }
+
+@media (min-width: 576px) {
+    .loisirs-bottom{
+        position: static;
+    }
+  }
+@media (min-width: 768px) {
+    .loisirs-bottom{
+        position: absolute;
+    }
+  }
