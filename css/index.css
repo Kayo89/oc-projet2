@@ -42,6 +42,9 @@ h1{
 .fa{
     font-size: 0.6em;
 }
+.fa-phone, .fa-envelope-open, .fa-skype, .fa-address-card{
+ color: black;
+}
 .fa-gamepad, .fa-tv, .fa-glass-cheers {
     color: black;
     border: 2px solid black;
