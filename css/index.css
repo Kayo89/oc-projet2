@@ -6,6 +6,9 @@ body{
     position: relative;
     background-color: lightskyblue;
 }
+.fa, .fas, .far, .infos h2, .first-name {
+    color: lightskyblue;
+}
 .loisirs-bottom{
     width: 100%;
     bottom: 10px;
@@ -17,7 +20,6 @@ h1{
     font-size: 4.0em;
 }
 .first-name {
-    color: lightskyblue;
     font-family: 'Acme',Arial, Helvetica, sans-serif ;
     font-weight: bold;
 }
@@ -31,20 +33,20 @@ h1{
 .infos li{
     margin-top: 0.8em;
 }
-.logo{
-    width: 40px;
-}
-.logo-briefcase{
-    width: 32px;
-    margin-bottom: 5px;
-}
-.logo-pen{
-    width: 24px;
-    margin-bottom: 3px;
-}
 .entreprise, .formation{
     font-size: 1.2em;
-    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS';
+}
+
+.fa{
+    font-size: 0.6em;
+}
+.fa-gamepad, .fa-tv, .fa-glass-cheers {
+    color: black;
+    border: 2px solid black;
+    padding: 12px;
+    border-radius: 50%;
 }
 
 @media (min-width: 576px) {
