@@ -1,3 +1,7 @@
+body{
+    font-size: 1.0em;
+    font-family: 'Yantramanav',Arial, Helvetica, sans-serif ;
+}
 .pos-relative{
     position: relative;
     background-color: lightskyblue;
@@ -9,12 +13,17 @@
 h3, .mini-border{
     border-bottom: lightskyblue solid 0.1em;
 }
+h1{
+    font-size: 4.0em;
+}
+.first-name {
+    color: lightskyblue;
+    font-family: 'Acme',Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+}
 .mini-border{
     width: 60px;
     margin-top: -7px;
-}
-body{
-    font-size: 0.8em;
 }
 .infos h2{
     font-size: 1.8em;
@@ -33,14 +42,18 @@ body{
     width: 24px;
     margin-bottom: 3px;
 }
+.entreprise, .formation{
+    font-size: 1.2em;
+    font-weight: bold;
+}
 
 @media (min-width: 576px) {
     .loisirs-bottom{
         position: static;
     }
-  }
+}
 @media (min-width: 768px) {
     .loisirs-bottom{
         position: absolute;
     }
-  }
+}
