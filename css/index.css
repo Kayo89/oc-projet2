@@ -62,3 +62,14 @@ h1{
         position: absolute;
     }
 }
+@media (max-width: 760px) {
+    .title{
+        background-color: lightskyblue;
+    }
+    .mini-border{
+        border-bottom: white solid 0.1em;
+    }
+    .first-name{
+        color: white;
+    }
+}
