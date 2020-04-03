@@ -8,26 +8,26 @@
     <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Yantramanav&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="container">
-    <header class="row">
+    <header class="row header">
         <div class="col-12 offset-md-0 col-md-4 col-lg-3  pos-relative jumbotron-fluid">
             <img src="img/image.jpg" class="rounded-circle col-6 offset-3 col-md-8 offset-md-2 w-100 mt-4 mb-3"
                 alt="photo d'itentité">
         </div>
-        <div class="col-12 col-md-8 title">
-            <h1 class="text-uppercase ml-3 mt-4"><span class="first-name">Kevin</span> Cabon</h1>
-            <h2 class="ml-3 h4 font-weight-bold">Developpeur Web</h2>
-            <hr class="mini-border">
+        <div class="col-12 col-md-8 header__title">
+            <h1 class="header__title--name"><span class="header__title--first--name">Kevin</span> Cabon</h1>
+            <h2 class="header__title--job">Developpeur Web</h2>
+            <hr class="header__title--mini-border">
         </div>
     </header>
     <div class="row">
         <section class="order-1 order-md-0 col-12 offset-md-0 col-md-4 col-lg-3  pos-relative infos jumbotron-fluid">
             <article>
-                <h3 class="text-center bg-dark text-uppercase col-12 offset-0 p-1">Contact</h3>
-                <ul class="list-unstyled p-3">
+                <h3 class="col-12 offset-0 infos__title">Contact</h3>
+                <ul class="infos__contact">
                     <li>Adresse<br><i class="far fa-address-card"></i> Finistère, France</li>
                     <li>Telephone<br><i class="fas fa-phone"></i> 06 12 34 56 78</li>
                     <li>Email<br><i class="far fa-envelope-open"></i> cabonk.pro@pm.me</li>
@@ -35,8 +35,8 @@
                     <li>Skype<br><i class="fab fa-skype"></i> MARB_IV</li>
                 </ul>
 
-                <h3 class="text-center bg-dark text-uppercase p-1">à propos de moi</h3>
-                <p class="text-justify p-4">Après plusieurs années d’emploi en conditionnement et opérateur de ligne,
+                <h3 class="infos__title">à propos de moi</h3>
+                <p class="infos__about">Après plusieurs années d’emploi en conditionnement et opérateur de ligne,
                     j’ai décidé de me lancer dans une formation en Développement Web, passionné depuis plusieurs années
                     dans
                     le développement d’application et pages web pour des projets personnel je me suis enfin décidé à
@@ -44,69 +44,70 @@
                     J’ai donc suivi une formation en ligne pour devenir Développeur Web.
                 </p>
             </article>
-            <footer class="col-12 loisirs-bottom jumbotron-fluid">
-                <h3 class="text-center bg-dark text-uppercase p-1">Loisirs</h3>
-                <h3 class="text-center"><i class="fas fa-gamepad"></i> <i class="fas fa-tv"></i> <i
-                        class="fas fa-glass-cheers"></i></h3>
+            <footer class="col-12 infos__loisirs jumbotron-fluid">
+                <h3 class="infos__title">Loisirs</h3>
+                <p class="infos__loisirs--icons"><i class="fas fa-gamepad"></i> <i class="fas fa-tv"></i> <i
+                        class="fas fa-glass-cheers"></i>
+                </p>
             </footer>
         </section>
-        <section class="col-12 col-md-8 mt-3">
+        <section class="col-12 col-md-8 content-cv">
 
-            <h3 class="mb-4 text-uppercase col-12">
+            <h3 class="col-12 content-cv__title">
                 <i class="fas fa-graduation-cap"></i>
                 Formation
             </h3>
-            <article class="row">
-                <ul class="list-unstyled list-inline cv-list col-12">
+            <article class="row content-cv__formation">
+                <ul class="list-unstyled list-inline content-cv__list col-12">
                     <li class="list-inline-item col-12 col-sm-4">
                         <i class="far fa-dot-circle" aria-hidden="true"></i>Juillet 2020
                     </li>
                     <li class="list-inline-item col-12 col-sm-8">
                         <ul class="list-unstyled">
-                            <li><span class="formation">OpenClassrooms.com</span></li>
+                            <li><span class="content-cv__list--lieu">OpenClassrooms.com</span></li>
                             <li>Développeur Web</li>
                         </ul>
                     </li>
                 </ul>
 
-                <ul class="list-unstyled list-inline cv-list col-12">
+                <ul class="list-unstyled list-inline content-cv__list col-12">
                     <li class="list-inline-item col-12 col-sm-4">
                         <i class="fa fa-circle" aria-hidden="true"></i>Juin 2009
                     </li>
                     <li class="list-inline-item col-12 col-sm-8">
                         <ul class="list-unstyled">
-                            <li><span class="formation">La Croix Rouge - Brest</span></li>
+                            <li><span class="content-cv__list--lieu">La Croix Rouge - Brest</span></li>
                             <li>BAC Pro Micro-informatique Réseau Installation et Maintenance</li>
                         </ul>
                     </li>
                 </ul>
 
-                <ul class="list-unstyled list-inline cv-list col-12">
+                <ul class="list-unstyled list-inline content-cv__list col-12">
                     <li class="list-inline-item col-12 col-sm-4">
                         <i class="fa fa-circle" aria-hidden="true"></i>Juin 2007
                     </li>
                     <li class="list-inline-item col-12 col-sm-8">
                         <ul class="list-unstyled">
-                            <li><span class="formation">La Croix Rouge - Brest</span></li>
+                            <li><span class="content-cv__list--lieu">La Croix Rouge - Brest</span></li>
                             <li>BEP Métiers de l’Electronique</li>
                         </ul>
                     </li>
                 </ul>
             </article>
 
-            <h3 class="text-uppercase mt-4 mb-4 col-12">
+            <h3 class="col-12 content-cv__title">
                 <i class="fas fa-briefcase"></i>
                 Expérience Professionnel
             </h3>
 
-            <article class="row mt-4">
-                <ul class="list-unstyled list-inline cv-list col-12">
+            <article class="row mt-4 content-cv__exp-pro">
+                <ul class="list-unstyled list-inline content-cv__list col-12">
                     <li class="list-inline-item col-12 col-sm-4">
                         <i class="fa fa-circle" aria-hidden="true"></i>Décembre 2018 (Stage)
                     </li>
                     <li class="list-inline-item col-12 col-sm-8">
                         <ul class="list-unstyled">
-                            <li><span class="entreprise">Trécobat – Lannilis</span></li>
+                            <li><span class="content-cv__list--lieu">Trécobat – Lannilis</span></li>
                             <li>Développeur Web</li>
                             <li>Création de tableaux pour afficher des valeurs inscrite dans la base de donnée</li>
                             <li>Création/Modification de scripts PHP</li>
@@ -114,13 +115,13 @@
                     </li>
                 </ul>
 
-                <ul class="list-unstyled list-inline cv-list col-12">
+                <ul class="list-unstyled list-inline content-cv__list col-12">
                     <li class="list-inline-item col-12 col-sm-4">
                         <i class="fa fa-circle" aria-hidden="true"></i>Décembre 2012 (Stage)
                     </li>
                     <li class="list-inline-item col-12 col-sm-8">
                         <ul class="list-unstyled">
-                            <li><span class="entreprise">Trécobat – Lannilis</span></li>
+                            <li><span class="content-cv__list--lieu">Trécobat – Lannilis</span></li>
                             <li>Technicien Système</li>
                             <li>Mise en place d’un service Shinken</li>
                             <li>Mise à jour d’OCS Inventory</li>
@@ -128,13 +129,13 @@
                     </li>
                 </ul>
 
-                <ul class="list-unstyled list-inline cv-list col-12">
+                <ul class="list-unstyled list-inline content-cv__list col-12">
                     <li class="list-inline-item col-12 col-sm-4">
                         <i class="fa fa-circle" aria-hidden="true"></i>Novembre 2012 (Stage)
                     </li>
                     <li class="list-inline-item col-12 col-sm-8">
                         <ul class="list-unstyled">
-                            <li><span class="entreprise">CI UBO – Brest</span></li>
+                            <li><span class="content-cv__list--lieu">SCI UBO – Brest</span></li>
                             <li>Technicien réseau stagiaire</li>
                             <li>Maintenance PC (logiciel et matériel)</li>
                             <li>Configuration Serveur Windows 2008 (Domaine, DHCP, DNS, Fichiers)</li>
@@ -142,13 +143,13 @@
                     </li>
                 </ul>
 
-                <ul class="list-unstyled list-inline cv-list col-12">
+                <ul class="list-unstyled list-inline content-cv__list col-12">
                     <li class="list-inline-item col-12 col-sm-4">
                         <i class="fa fa-circle" aria-hidden="true"></i>Mars et Juin 2008 (Stage)
                     </li>
                     <li class="list-inline-item col-12 col-sm-8">
                         <ul class="list-unstyled">
-                            <li><span class="entreprise">Cyberdyne – Landerneau</span></li>
+                            <li><span class="content-cv__list--lieu">Cyberdyne – Landerneau</span></li>
                             <li>Technicien en réparation informatique stagiaire</li>
                             <li>Identification et résolution de problème informatique (logiciel ou matériel)</li>
                             <li>Réinstallation de système d’exploitation</li>
@@ -156,27 +157,27 @@
                     </li>
                 </ul>
 
-                <ul class="list-unstyled list-inline cv-list col-12">
+                <ul class="list-unstyled list-inline content-cv__list col-12">
                     <li class="list-inline-item col-12 col-sm-4">
                         <i class="fa fa-circle" aria-hidden="true"></i>Avril 2013 à Septembre 2016 & Février 2019 à
                         Octobre 2019
                     </li>
                     <li class="list-inline-item col-12 col-sm-8">
                         <ul class="list-unstyled">
-                            <li><span class="entreprise">Saveol – Guipavas</span></li>
+                            <li><span class="content-cv__list--lieu">Saveol – Guipavas</span></li>
                             <li>Opérateur de ligne</li>
                             <li>Fabrication d’emballage carton sur ligne d’assemblage automatisé</li>
                         </ul>
                     </li>
                 </ul>
 
-                <ul class="list-unstyled list-inline cv-list col-12">
+                <ul class="list-unstyled list-inline content-cv__list col-12">
                     <li class="list-inline-item col-12 col-sm-4">
                         <i class="fa fa-circle" aria-hidden="true"></i>Août 2009 à Mars 2011
                     </li>
                     <li class="list-inline-item col-12 col-sm-8">
                         <ul class="list-unstyled">
-                            <li><span class="entreprise">MédiaPoste – Guipavas</span></li>
+                            <li><span class="content-cv__list--lieu">MédiaPoste – Guipavas</span></li>
                             <li>Mise sur palette des publicités pour assemblage sur machine</li>
                             <li>Ramassage des publicités en bout de ligne</li>
                         </ul>
@@ -184,11 +185,11 @@
                 </ul>
             </article>
 
-            <h3 class="text-uppercase mb-4 mt-4 col-12">
+            <h3 class="col-12 content-cv__title">
                 <i class="fas fa-pencil-alt"></i>
                 Recommandations
             </h3>
-            <article class="row mb-4">
+            <article class="row content-cv__recommandations">
                 <ul class="list-unstyled col-6">
                     <li><span class="text-uppercase">Sélim El Kefi</span></li>
                     <li>France</li>

@@ -1,0 +1,20 @@
+{
+  "name": "oc-projet2",
+  "version": "1.0.0",
+  "description": "CV en ligne",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css",
+    "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kayo89/oc-projet2.git"
+  },
+  "author": "Cabon Kevin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kayo89/oc-projet2/issues"
+  },
+  "homepage": "https://github.com/Kayo89/oc-projet2#readme"
+}
