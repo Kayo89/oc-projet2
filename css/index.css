@@ -6,7 +6,7 @@ body{
     position: relative;
     background-color: lightskyblue;
 }
-.fa, .fas, .far, .infos h2, .first-name {
+.fa, .fas, .far, .infos h3, .first-name {
     color: lightskyblue;
 }
 .loisirs-bottom{
@@ -23,9 +23,18 @@ h1{
     font-family: 'Acme',Arial, Helvetica, sans-serif ;
     font-weight: bold;
 }
+.cv-list{
+    display: flex;
+    justify-content: flex-start;
+}
+.cv-list i {
+    margin-right: 1rem;
+}
 .mini-border{
     width: 60px;
     margin-top: -7px;
+    position: absolute;
+    left: 30px;
 }
 .infos h2{
     font-size: 1.8em;
@@ -59,6 +68,11 @@ h1{
 @media (min-width: 768px) {
     .loisirs-bottom{
         position: absolute;
+    }
+}
+@media (max-width: 576px){
+    .cv-list{
+        display: block;
     }
 }
 @media (max-width: 760px) {
