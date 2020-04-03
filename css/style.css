@@ -25,7 +25,7 @@ body {
   font-weight: bold;
   color: lightskyblue;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header__title--first--name {
     color: white;
   }
@@ -41,12 +41,12 @@ body {
   left: 30px;
   border-bottom: lightskyblue solid 0.2em;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header__title--mini-border {
     border-bottom: white solid 0.2em;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header__title {
     background-color: lightskyblue;
     padding-bottom: 1rem;
@@ -80,7 +80,7 @@ body {
   width: 100%;
   bottom: 10px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .infos__loisirs {
     position: static;
   }
